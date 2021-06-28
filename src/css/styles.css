@@ -8,7 +8,7 @@ body {
     /*background-image: url('../img/imagen_fondo.jpg');
     background-repeat: no-repeat;
     background-position: center center;*/
-    background: url(../img/imagen_fondo.jpg) center center no-repeat;
+    background: url(../img/imagen_fondo.jpg) center center no-repeat fixed;
     background-size: cover;
     height: 100vh;
     margin: 0;
@@ -16,8 +16,44 @@ body {
 }
 
 .logo-menu {
+    position: relative;
     width: 60px;
     height: 60px;
+    margin-left: 5px;
+}
+
+.menu-nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    left: 15%;
+    margin-left: -130px;
+    font-size: 20px;
+}
+
+.menu-nav li {
+    position: relative;
+    display: inline;
+    padding-right: 25px;
+}
+
+.menu-nav li a {
+    padding: 2px 7px 2px 7px;
+    background-color: #24303c;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-nav {
+    position: fixed;
+    background-color: #24303c;
+    border: 1px;
+    margin: auto;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.90;
 }
 
 #logo {
