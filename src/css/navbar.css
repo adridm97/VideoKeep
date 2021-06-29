@@ -1,0 +1,37 @@
+.logo-navbar {
+    float: left;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+}
+
+.menu-nav ul {
+    list-style-type: none;
+    left: 15%;
+    font-size: 20px;
+}
+
+.menu-nav li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.menu-nav li a {
+    display: inline-block;
+    background-color: #24303c;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 3px;
+}
+
+.menu-nav {
+    position: fixed;
+    background-color: #24303c;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.90;
+    line-height: 30px;
+}
