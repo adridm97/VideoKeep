@@ -4,10 +4,10 @@
 }
 
 .form-login {
-    width: 400px;
+    width: auto;
     background: #24303c;
     padding: 30px;
-    margin: auto;
+    margin: 1rem;
     margin-top: 100px;
     border-radius: 4px;
     font-family: 'calibri';

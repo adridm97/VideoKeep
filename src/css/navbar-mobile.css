@@ -1,6 +1,7 @@
 .menu-nav {
     position: fixed;
     background-color: #24303c;
+    background-color: ;
     width: 100%;
     top: 0;
     left: 0;
@@ -74,4 +75,22 @@
     display: block;
     font-size: 2rem;
     line-height: 3rem;
+}
+
+.buscador-navbar {
+    position: absolute;
+    right: 5rem;
+    top: calc(var(--navbar-size) - 75%);
+}
+
+.cerrar-sesion {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/cerrar-sesion.png);
+    background-size: contain;
+    background-color: #24303c;
+    border-radius: 3px;
 }
