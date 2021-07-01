@@ -1,0 +1,57 @@
+  .tags, .card-date {
+      font-size: small;
+  }
+
+  .tags {
+      font-weight: bold;
+      font-variant: small-caps;
+  }
+
+  .card {
+      width: 250px;
+      height: 190px;
+      z-index: 10;
+      position: relative;
+      border: solid 1px green;
+  }
+
+  .grid-container {
+      margin: 1rem;
+      display: grid;
+      grid-gap: 30px 30px;
+      grid-auto-flow: column;
+      position: relative;
+      grid-template-columns: 250px 250px 250px;
+      top: calc(var(--navbar-size) + 30px);
+      border: solid 1px red;
+  }
+
+  .card-img {
+      max-width: 100%;
+      max-height: 100%;
+  }
+
+  .container {
+      max-width: 100%;
+      max-height: 100%;
+      justify-self: stretch;
+  }
+
+  .card-text {
+      display: flex;
+      position: absolute;
+      justify-items: start;
+      max-width: 100%;
+      max-height: 100%;
+      top: 0;
+      bottom: 0;
+      z-index: 15;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .card:hover .card-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }

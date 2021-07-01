@@ -1,7 +1,6 @@
 .menu-nav {
     position: fixed;
     background-color: #24303c;
-    background-color: ;
     width: 100%;
     top: 0;
     left: 0;
@@ -79,12 +78,14 @@
 
 .buscador-navbar {
     position: absolute;
-    right: 5rem;
-    top: calc(var(--navbar-size) - 75%);
+    right: 3rem;
+    top: calc(var(--navbar-size) - 90%);
+    height: calc(var(--navbar-size) - 25%);
+    border-radius: 8px;
 }
 
 .cerrar-sesion {
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 10px;
     width: 2rem;
