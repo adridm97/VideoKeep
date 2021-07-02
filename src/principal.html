@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VideoKeep</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/navbar-mobile.css">
+    <link rel="stylesheet" href="css/navbar-mobile.css"
+        media="(max-width:767px)">
     <link rel="stylesheet" href="css/tarjet.css">
+    <link rel="stylesheet" href="css/navbar.css" media="(min-width: 768px)">
 </head>
 
 <body>
@@ -16,7 +18,7 @@
     <nav class="menu-nav">
         <img class="logo-navbar" src="img/logo_negro.jpg"
             alt="Logo VideoKeep"></img>
-        <input type="checkbox" id="burger-checkbox">
+        <input type="checkbox" id="burger-checkbox"></input>
         <label for="burger-checkbox" id="burger-label"></label>
         <ul class="navbar-list">
             <li class="navbar-item"><a href="#">Novedades</a></li>
@@ -33,17 +35,16 @@
                     alt="Ready Player One">
             </div>
             <div class="card-text">
-                <div class="container">
-                    <div class="tags">
-                        Pelicula Ciencia Ficcion Animación
-                    </div>
-                    <h2 class="card-title">
-                        Ready Player One
-                    </h2>
-                    <div class="card-date">28 de Marzo de 2018</div>
+                <div class="tags">
+                    Pelicula Ciencia Ficcion Animación
                 </div>
+                <h2 class="card-title">
+                    Ready Player One
+                </h2>
+                <div class="card-date">28 de Marzo de 2018</div>
             </div>
         </article>
+
         <!--<article class="card">
             <div class="card-img">
                 <img src="./img/ready-player-one.jpeg" alt="Ready Player One">

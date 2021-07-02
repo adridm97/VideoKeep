@@ -1,37 +1,63 @@
+.menu-nav {
+    display: flex;
+    position: fixed;
+    background-color: #24303c;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: var(--navbar-size);
+    opacity: 0.90;
+}
+
 .logo-navbar {
-    float: left;
-    position: relative;
     width: 60px;
-    height: 60px;
+    height: var(--navbar-size);
     margin-left: 5px;
 }
 
 .menu-nav ul {
+    position: relative;
+    height: var(--navbar-size);
     list-style-type: none;
-    left: 15%;
     font-size: 20px;
+    left: 1rem;
 }
 
 .menu-nav li {
+    justify-content: space-around;
     display: inline-block;
-    padding-right: 25px;
 }
 
 .menu-nav li a {
     display: inline-block;
-    background-color: #24303c;
     color: white;
     text-decoration: none;
-    padding: 1rem;
-    margin: 3px;
+    height: var(--navbar-size);
+    justify-content: center;
+    align-content: center;
+    padding-top: .75rem;
 }
 
-.menu-nav {
+.buscador-navbar {
+    position: absolute;
+    right: 3rem;
+    top: calc(var(--navbar-size) - 90%);
+    height: calc(var(--navbar-size) - 25%);
+    border-radius: 8px;
+}
+
+.cerrar-sesion {
     position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/cerrar-sesion.png);
+    background-size: contain;
     background-color: #24303c;
-    top: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.90;
-    line-height: 30px;
+    border-radius: 3px;
+}
+
+#burger-checkbox, #burger-label {
+    display: none;
 }

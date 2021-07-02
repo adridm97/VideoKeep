@@ -5,6 +5,7 @@
     top: 0;
     left: 0;
     height: var(--navbar-size);
+    opacity: .90;
 }
 
 .logo-navbar {
@@ -53,7 +54,6 @@
     justify-content: space-evenly;
     background-color: black;
     height: calc(100vh - var(--navbar-size));
-    opacity: .85;
 }
 
 .menu-nav ul {
