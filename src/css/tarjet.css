@@ -7,22 +7,31 @@
       font-variant: small-caps;
   }
 
-  .card {
-      width: 250px;
-      height: 190px;
-      position: relative;
-      border: solid 1px green;
+  .grid-container {
+      position: absolute;
+      margin: 2rem;
+      display: grid;
+      border: solid 1px red;
+      grid-template-columns: 1fr;
+      margin: 1rem;
   }
 
-  .grid-container {
-      margin: 1rem;
+  .container-cards {
       display: grid;
-      grid-gap: 30px 30px;
-      grid-auto-flow: column;
+      grid-auto-flow: row;
+      gap: 30px 30px;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-content: center;
+  }
+
+  #title-container {
+      grid-column: span 2;
+  }
+
+  .card {
       position: relative;
-      grid-template-columns: 250px 250px 250px;
-      top: calc(var(--navbar-size) + 30px);
-      border: solid 1px red;
+      border: solid 1px green;
   }
 
   .card-img {

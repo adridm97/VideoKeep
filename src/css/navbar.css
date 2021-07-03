@@ -20,12 +20,13 @@
     height: var(--navbar-size);
     list-style-type: none;
     font-size: 20px;
-    left: 1rem;
+    left: 2rem;
 }
 
 .menu-nav li {
     justify-content: space-around;
     display: inline-block;
+    margin-right: 2rem;
 }
 
 .menu-nav li a {
@@ -41,8 +42,8 @@
 .buscador-navbar {
     position: absolute;
     right: 3rem;
-    top: calc(var(--navbar-size) - 90%);
-    height: calc(var(--navbar-size) - 25%);
+    top: calc(var(--navbar-size) - 70%);
+    height: calc(var(--navbar-size) - 50%);
     border-radius: 8px;
 }
 

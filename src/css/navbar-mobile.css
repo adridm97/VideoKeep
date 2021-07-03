@@ -11,13 +11,13 @@
 .logo-navbar {
     width: 60px;
     height: var(--navbar-size);
-    margin-left: 4rem;
+    margin-left: .5rem;
 }
 
 #burger-label {
     position: absolute;
     top: .3rem;
-    left: 0;
+    left: 5rem;
     width: 2rem;
     height: 2rem;
 }
@@ -28,7 +28,6 @@
     width: 2rem;
     height: .2rem;
     position: absolute;
-    left: .5rem;
     top: .5rem;
     box-shadow: 0 .45rem 0 0 darkgray, 0 .9rem 0 0 darkgray;
 }
@@ -37,6 +36,7 @@
 
 .navbar-list {
     display: none;
+    z-index: 99;
 }
 
 #burger-checkbox {
@@ -79,8 +79,8 @@
 .buscador-navbar {
     position: absolute;
     right: 3rem;
-    top: calc(var(--navbar-size) - 90%);
-    height: calc(var(--navbar-size) - 25%);
+    top: calc(var(--navbar-size) - 70%);
+    height: calc(var(--navbar-size) - 50%);
     border-radius: 8px;
 }
 
