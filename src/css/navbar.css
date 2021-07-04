@@ -7,6 +7,7 @@
     left: 0;
     height: var(--navbar-size);
     opacity: 0.90;
+    z-index: 100;
 }
 
 .logo-navbar {
@@ -42,7 +43,7 @@
 .buscador-navbar {
     position: absolute;
     right: 3rem;
-    top: calc(var(--navbar-size) - 70%);
+    top: calc(var(--navbar-size) - 75%);
     height: calc(var(--navbar-size) - 50%);
     border-radius: 8px;
 }

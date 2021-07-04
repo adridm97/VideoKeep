@@ -1,19 +1,18 @@
-  .tags, .card-date {
+  .calificacion, .card-date {
       font-size: small;
   }
 
-  .tags {
+  .calificacion {
       font-weight: bold;
       font-variant: small-caps;
   }
 
   .grid-container {
-      position: absolute;
-      margin: 2rem;
       display: grid;
-      border: solid 1px red;
       grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
       margin: 1rem;
+      margin-top: calc(var(--navbar-size) + 1rem);
   }
 
   .container-cards {
@@ -21,17 +20,19 @@
       grid-auto-flow: row;
       gap: 30px 30px;
       grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
       justify-content: center;
       align-content: center;
   }
 
   #title-container {
       grid-column: span 2;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
   }
 
   .card {
       position: relative;
-      border: solid 1px green;
   }
 
   .card-img {

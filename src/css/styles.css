@@ -15,7 +15,5 @@ body {
     background: url(../img/imagen_fondo.jpg) center center no-repeat fixed;
     background-size: cover;
     margin: 0;
-    margin-top: var(--navbar-size);
-    height: 100vh;
     background-color: black;
 }

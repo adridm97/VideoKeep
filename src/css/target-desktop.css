@@ -1,0 +1,58 @@
+.tags, .card-date {
+    font-size: small;
+}
+
+.tags {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 1rem;
+    margin-top: calc(var(--navbar-size) + 1rem);
+}
+
+.container-cards {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 30px 30px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+#title-container {
+    grid-column: span 2;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.card {
+    position: relative;
+}
+
+.card-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-text {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+}
+
+.card:hover .card-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: row;
+    width: 100%;
+}
