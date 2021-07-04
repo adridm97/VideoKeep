@@ -55,5 +55,20 @@
       justify-content: center;
       align-items: center;
       grid-auto-flow: row;
-      width: 100%;
+      grid-template-rows: 1fr 2fr 2fr 1fr;
+  }
+
+  @media (min-width: 420px) {
+      .card-description {
+          font-size: 20px;
+      }
+      .calificacion {
+          font-size: 16px;
+      }
+  }
+
+  @media (min-width: 600px) {
+      .card-description {
+          font-size: 25px;
+      }
   }
