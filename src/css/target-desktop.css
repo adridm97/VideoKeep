@@ -37,32 +37,30 @@
 .favoritos {
     z-index: 1;
     position: absolute;
-    bottom: 4px;
+    top: 0;
     right: 1px;
-    border: 1px solid red;
-    color: chartreuse;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
-#fav-checkbox {
+.checkbox-fav {
     display: none;
 }
 
-#btn-fav {
-    position: relative;
+.checkbox-fav+label {
+    position: absolute;
     width: 100%;
     height: 100%;
-    background: url(../img/fav-vacio.png);
+    background-image: url(../img/corazon-vacio.png);
     background-size: cover;
 }
 
-#fav-checkbox:checked #btn-fav {
-    position: relative;
+.checkbox-fav:checked+label {
+    position: absolute;
     width: 100%;
     height: 100%;
-    background: url(../img/fav-lleno.png);
     background-size: cover;
+    background-image: url(../img/corazon-lleno.png);
 }
 
 .card-img {
