@@ -2,7 +2,7 @@
     display: grid;
     margin: 1rem;
     margin-top: calc(var(--navbar-size) + 1rem);
-    grid-template-rows: .5fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 #titulo-detalle {
@@ -13,32 +13,47 @@
 #video-detalle {
     align-self: start;
     width: 100%;
-    padding: .5rem;
+    padding: 1.5rem;
 }
 
 #sinopsis-detalle {
     padding: 1rem .5rem;
     grid-row: span 2;
-    margin-top: 10px;
+    margin: 10px 2rem 0 2rem;
     background-color: rgba(00, 00, 00, .5);
     border-radius: 10px;
     color: white;
     align-self: center;
+    justify-self: center;
+    font-size: 1.5rem;
 }
 
 #reparto-detalle {
-    grid-column: 2;
-    grid-row: 1;
-    justify-self: center;
-    align-self: center;
+    margin: 0;
+    padding: 0 .5rem;
 }
 
 #calificacion-detalle {
     margin: 0;
     padding: 0 .5rem;
-    align-self: center;
 }
 
 #contenedor-reparto {
     display: grid;
+    background-color: rgba(00, 00, 00, .5);
+    border-radius: 10px;
+    color: white;
+    padding: 1rem .5rem;
+    margin: 10px 2rem 0 2rem;
+    align-content: center;
+    grid-template-rows: 2rem 2rem;
+}
+
+.related-posts {
+    display: grid;
+    background-color: rgba(00, 00, 00, .5);
+    border-radius: 10px;
+    color: white;
+    padding: 1rem .5rem;
+    margin: 10px 2rem 0 2rem;
 }
