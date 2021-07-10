@@ -1,0 +1,36 @@
+#letra-grande {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15rem;
+    background-color: rgba(00, 00, 00, .5);
+    border-radius: 50px 50px 0 0;
+    color: white;
+    justify-self: center;
+}
+
+.contenedor-404 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 5rem;
+}
+
+#letra-pequeña {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    background-color: rgba(00, 00, 00, .5);
+    border-radius: 50px;
+    color: white;
+    padding: 3rem;
+    justify-self: center;
+}
+
+#volver {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    justify-self: center;
+    background-color: rgba(00, 00, 00, .5);
+    padding: 1rem;
+    border-radius: 7px;
+    margin-top: 5px;
+}
